@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+}
+.nav-half{
+    width: 20%;
+    margin-left: 100px;
+}
+.nav-half2{
+    width: 70%;
+
+}
+.navbar a {
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: black;
+    font-weight: 600;
+}
+#get-btn{
+    padding: 15px 30px;
+    background-color: salmon;
+    /* margin: 20px 20px 50px 0px; */
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+/* intro section */
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+}
+
+.container{
+    background-image: url(img/newbg.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.container p{
+    text-align: justify;
+}
+.half-cont{
+    width: 400px;
+}
+.half-cont img{
+    height: 500px;
+}
+
+.learn-button{
+    padding: 15px 40px;
+    background-color: salmon;
+    margin: 20px 20px 50px 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+
+}
+.hire-btn{
+    padding: 14px 39px;
+    border: 1px solid salmon;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+footer{
+    font-family: 'PT Serif', serif;
+    margin-top: 100px;
+    text-align: center;
+}
